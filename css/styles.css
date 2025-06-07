@@ -661,3 +661,43 @@ img {
 .modal-textarea:focus::placeholder {
   color: #4d5ae5;
 }
+
+/** ====== Modal Check ===== */
+
+.checkbox-field {
+  margin-bottom: 24px;
+}
+
+.modal-check:checked + .modal-check-text .check-element {
+  background-color: #404bbf;
+  border-radius: 2px;
+  fill: #f4f4fd;
+  border: 1px solid #404bbf;
+}
+
+.modal-check-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.check-element {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  margin-right: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
+.check-icon {
+}
+
+.check-link {
+  text-decoration: underline;
+}
